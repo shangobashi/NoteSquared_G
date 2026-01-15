@@ -1,0 +1,7 @@
+{
+  "name": "Note²",
+  "description": "AI-powered automated documentation tool for music teachers. Record lessons, transcribe, and generate recaps, plans, and emails instantly.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
