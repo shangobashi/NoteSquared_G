@@ -4,6 +4,7 @@ import { Button } from './ui/Button';
 import { Card } from './ui/Card';
 import { ArrowRight } from 'lucide-react';
 import { Logo } from './ui/Logo';
+import { Footer } from './ui/Footer';
 
 export const LoginScreen = () => {
   const { login, isLoading } = useAuth();
@@ -77,6 +78,7 @@ export const LoginScreen = () => {
         <p className="text-center text-xs text-slate-400 dark:text-slate-500">
           By signing in, you agree to our Terms of Service and Privacy Policy.
         </p>
+        <Footer className="mt-10" />
       </div>
     </div>
   );

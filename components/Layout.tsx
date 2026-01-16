@@ -3,6 +3,7 @@ import { Moon, Sun, LogOut } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { Button } from './ui/Button';
 import { Logo } from './ui/Logo';
+import { Footer } from './ui/Footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -60,6 +61,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, userEmail, studioName,
       <main className="flex-1 max-w-3xl mx-auto w-full p-4 md:p-6">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };
