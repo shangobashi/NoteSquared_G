@@ -48,9 +48,10 @@ export const Footer: React.FC<FooterProps> = ({ className }) => {
           aria-hidden="true"
         />
         <p className="mt-4 text-center text-xs text-slate-400 dark:text-slate-500">
-          © 2026 BlueLabs
+          © 2026 BLUELABS
         </p>
       </div>
     </footer>
   );
 };
+
